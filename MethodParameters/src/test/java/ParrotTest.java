@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class ParrotTest {
     Parrot p = new Parrot();
+    
 
     /**
      * If p.copy is passed "hello", it should return "hello".
