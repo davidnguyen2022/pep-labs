@@ -73,11 +73,9 @@ public class Comparators {
      * @return true if a is less than or equal to b, false otherwise.
      */
     public boolean lessThanOrEqualTo(int a, int b){
-        return a<b;
+        return a<=b;
     }
-    public boolean lessThanOrEqualToTest2(int a, int b){
-        return a!=b;
-    }
+    
 
     /**
      * @param a the first number to be compared.
