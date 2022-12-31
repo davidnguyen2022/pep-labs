@@ -14,7 +14,7 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
-        return false;
+        return true;
     }
 
     /**
@@ -31,7 +31,7 @@ public class Comparators {
      * @return true if a is less than b, false otherwise.
      */
     public boolean lessThan(int a, int b){
-        return false;
+        return true;
     }
     /**
      * @param a the first number to be compared.
@@ -56,6 +56,6 @@ public class Comparators {
      * @return true if a is not equal to b, false otherwise.
      */
     public boolean notEqualTo(int a, int b){
-        return false;
+        return true;
     }
 }
