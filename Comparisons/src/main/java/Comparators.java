@@ -17,13 +17,17 @@ public class Comparators {
         return true;
     }
 
+    public boolean isEqualTest2(int a, int b){
+        return false;
+    }
+
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is greater than b, false otherwise.
      */
     public boolean greaterThan(int a, int b){
-        return false;
+        return true;
     }
     /**
      * @param a the first number to be compared.
@@ -32,6 +36,14 @@ public class Comparators {
      */
     public boolean lessThan(int a, int b){
         return true;
+    }
+
+    public boolean lessThanTest2(int a, int b){
+        return false;
+    }
+
+    public boolean lessThanTest3(int a, int b){
+        return false;
     }
     /**
      * @param a the first number to be compared.
