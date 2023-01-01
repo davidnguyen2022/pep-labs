@@ -17,12 +17,20 @@ public class Expressions {
         return true;
     }
 
+    public boolean returnBooleanTest2(boolean b){
+        return true;
+    }
+
     /**
      * @param b a true/false value.
      * @return if b is true, return false. if b is false, return true.
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
+        return false;
+    }
+
+    public boolean returnNotTest2(boolean b){
         return false;
     }
 
@@ -43,6 +51,14 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
+        return false;
+    }
+
+    public boolean returnOrTest2(boolean b1, boolean b2){
+        return false;
+    }
+
+    public boolean returnOrTest3(boolean b1, boolean b2){
         return false;
     }
 
