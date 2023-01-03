@@ -17,6 +17,10 @@ public class Player {
     public String playerName;
     public int level;
 
+    
+
+    
+
     /**
      * this.playerName should be set to playerName.
      *
@@ -31,9 +35,15 @@ public class Player {
      * @param playerName the name of the player to be created.
      */
     public Player(String playerName){
+        this.playerName = playerName;
+        
+       
+        
 
     }
 
+    
+    
     /**
      * Again, the values of this object should be set with the help of the 'this' keyword to avoid confusion between
      * class fields / parameter variables.
@@ -48,6 +58,11 @@ public class Player {
      * @param level the starting level of the player to be created.
      */
     public Player(String playerName, int level){
+        Player newPlayer = new Player("Frodo", 1);
+        Player newPlayer2 = new Player("Sam", 1);
+    Player newPlayer3 = new Player("Gollum", 5);
+        
+        
 
     }
 
