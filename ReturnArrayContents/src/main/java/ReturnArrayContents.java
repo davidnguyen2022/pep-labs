@@ -31,6 +31,6 @@ public class ReturnArrayContents {
         for (int i = 0; i < nums.length; i++) {
   
         }
-        return nums[i] +" ";
+        return nums[i] + "";
     }
 }
