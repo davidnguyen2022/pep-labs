@@ -16,16 +16,12 @@ public class CastingPrimitive {
      * @return the int form of d.
      */
     public int castToInt(double d){
-        d = 4.3;
-        int a;
-        a = (int) d;
+        
+        int a = (int) d;
         System.out.println(d);
         return a;
         
     }
-    public int castToInt2(double d){
-        return 9;
-        
-    }
+    
     
 }
