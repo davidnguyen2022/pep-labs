@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 4
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 4
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -349,14 +349,14 @@
     :Order: 5
     :Type: lab
     :count_tests: 6
-    :count_tests_passed: 4
+    :count_tests_passed: 2
     :tests:
       createSetTest: 1
-      getSizeTest: 0
-      getSizeTest2: 1
-      addItemTest1: 1
+      getSizeTest: 1
+      getSizeTest2: 0
+      addItemTest1: 0
       addItemTest2: 0
-      removeItemTest1: 1
+      removeItemTest1: 0
   Map:
     :Week: 3
     :Order: 6

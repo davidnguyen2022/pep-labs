@@ -23,9 +23,6 @@ public class SetExercise {
     public Set<Integer> createSet(){
         Set<Integer> object = new HashSet<>();
         
-        object.add(1);
-        
-        
         return object;
     }
 
@@ -34,8 +31,8 @@ public class SetExercise {
      * @param set The set that we will be manipulating.
      * @return the size of set. (number of values)
      */
-    public int getSize(Set<Integer> object){
-        return object.size();
+    public int getSize(Set<Integer> set){
+        return set.size();
         
     }
 
