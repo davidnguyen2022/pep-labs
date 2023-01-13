@@ -14,6 +14,15 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        try{
+
+        
+        }
+        catch (ArithmeticException e){
+            e.printStackTrace(); 
+            
+        }
+            
 
     }
 }
