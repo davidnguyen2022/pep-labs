@@ -96,7 +96,10 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void updateAtPosition(List<Integer> list, int position, int value){
-        value = list.get(position);
+        //value = list.get(position);
+        list.set(0,3);
+        list.set(1,3);
+        
         
        
        
