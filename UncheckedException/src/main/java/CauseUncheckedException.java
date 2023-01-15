@@ -14,15 +14,7 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-        int num1 = 5, num2 = 0, result = 0;
-        try {
-        result = num1/num2;
-       System.out.println(result);
-        }
-        catch (Exception e) {
-            System.out.println("Can't be divided by zero" + e);
-
-        }
+        System.out.println(12/0);
 
             
 
