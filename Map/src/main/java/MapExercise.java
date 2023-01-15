@@ -53,7 +53,6 @@ public class MapExercise {
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
         map.put(key,value);
         
-        System.out.println(map);
         
     }
 
@@ -64,8 +63,8 @@ public class MapExercise {
      * @return the value associated with key in map.
      */
     public String getValueFromKey(Map<Integer, String> map, int key){
-        //map.get(key);
-        return "";
+        return map.get(key);
+        
     }
 
     /**
@@ -87,6 +86,6 @@ public class MapExercise {
      */
     public void overwriteValue(Map<Integer, String> map, int key, String value){
     map.replace(key,value);
-    System.out.println(map);
+    
     }
 }
