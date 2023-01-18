@@ -5,4 +5,5 @@
  */
 public class Class {
     static String global_var = "this variable is static";
+    
 }
