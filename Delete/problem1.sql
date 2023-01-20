@@ -1,2 +1,1 @@
-DELETE FROM site_user 
-WHERE firstname= = 'Steve';
+DELETE FROM site_user WHERE firstname = 'Steve';
