@@ -1,0 +1,1 @@
+SELECT * FROM employee_table WHERE salary > 100,000.00 OR salary < 50000.00;

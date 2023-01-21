@@ -1,0 +1,1 @@
+SELECT * FROM employee table WHERE salary, first_name(first_name = 'Steve', salary > 50000.00);
