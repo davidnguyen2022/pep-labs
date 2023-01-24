@@ -24,7 +24,7 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char charAt(String s, int n){
-        return charAt(s, n);
+        return s.charAt(n);
     }
 
     /**
@@ -36,8 +36,8 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int indexOf(String s, char c){
-        String myStr;
-        return (myStr.indexOf(s,c));
+        
+        return (s.indexOf(c));
     }
 
 }
