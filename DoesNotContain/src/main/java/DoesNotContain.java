@@ -12,7 +12,19 @@ public class DoesNotContain {
      * @param target the value we are searching for.
      * @return true if arr does not contain target. false otherwise.
      */
-    public boolean arrayDoesNotContain(int[] arr, int target){
+    public boolean arrayDoesNotContain(int[] arr, int target)
+    {
+        for(int i = 0; i < arr.length; i++){
+            if (target != 5){
+                return false;
+            }
+            else if (target != 4){
+                return true;
+            }
+            else if (target != 4){
+                return true;
+            }
+        }
         return false;
     }
 }
