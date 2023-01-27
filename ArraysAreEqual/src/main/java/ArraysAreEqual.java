@@ -16,21 +16,7 @@ public class ArraysAreEqual {
      */
     public boolean equal(int[] a, int[] b){
         
-     
-    boolean equalOrNot;
-     //if (a.equals(b))
-    if(a == b)
-    {
-       
-            
-                equalOrNot = true;
-            
-        
-    }
-    else
-    {
-        equalOrNot = false;
-    }
-    return equalOrNot;
+    
+    
 }
 }
