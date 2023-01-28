@@ -1,0 +1,1 @@
+SELECT * FROM class RIGHT OUTER JOIN student ON class.class_title = student.class_title WHERE student.student_title IS NULL;
