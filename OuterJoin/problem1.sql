@@ -1,1 +1,1 @@
-SELECT * FROM class LEFT OUTER JOIN student ON class.class_title = student.class_title WHERE student.student_name IS NULL;
+SELECT * FROM class LEFT JOIN student ON class.class_title = student.class_title WHERE student.student_name IS NULL;
