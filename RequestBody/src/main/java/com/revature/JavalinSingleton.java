@@ -24,9 +24,9 @@ public class JavalinSingleton {
             Song song = om.readValue(jsonString, Song.class);
 
             ctx.contentType("application/json");
-            song.getArtistName();
+            
 
-            ctx.result();
+            ctx.result(song.getArtistName());
 
 
 
