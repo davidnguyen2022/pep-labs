@@ -11,6 +11,7 @@ public class BankService {
      * will allow only the methods within this class to interact with the balance.
      */
     private double balance;
+         
     /**
      * A constructor to build a BankService object that will start the bank balance at 0. There is no need to change
      * anything in this constructor.
@@ -23,6 +24,7 @@ public class BankService {
      * @param amount the amount to be deposited.
      */
     public void deposit(double amount){
+        double balance.add(amount);
 
     }
 
@@ -32,7 +34,7 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-
+        double balance.remove(amount);
     }
 
     /**
