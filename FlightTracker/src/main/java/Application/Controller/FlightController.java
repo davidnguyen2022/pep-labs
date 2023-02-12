@@ -119,7 +119,7 @@ public class FlightController {
      *            be available to this method automatically thanks to the app.put method.
      */
     private void getAllFlightsHandler(Context ctx){
-        ctx.json(flightService.getAllFlights());
+        ctx.json(flightService.getAllFlights(flightDAO.getAllFlights()));
     }
     /**
      * Handler to retrieve all flights departing from a particular city and arriving at another city.
