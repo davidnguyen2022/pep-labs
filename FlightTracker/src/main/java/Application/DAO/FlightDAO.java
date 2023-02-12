@@ -191,10 +191,9 @@ public class FlightDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write PreparedStatement setString and setInt methods here.
-            preparedStatement.setString(1,"flight.departure_city value");
-            preparedStatement.setString(2,"flight.arrival_city value");
-            preparedStatement.setInt(3,255);
-        preparedStatement.setInt(4,255);
+            preparedStatement.setString(1,departure_city);
+            preparedStatement.setString(2, arrival_city);
+            
             
 
             ResultSet rs = preparedStatement.executeQuery();
