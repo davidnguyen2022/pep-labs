@@ -7,6 +7,7 @@ import java.util.Objects;
  * Do not modify anything in this class.
  */
 public class Author {
+    public static String author_id;
     int id;
     String name;
     /**
