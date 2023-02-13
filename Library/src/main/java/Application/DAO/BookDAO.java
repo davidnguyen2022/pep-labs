@@ -61,7 +61,7 @@ public class BookDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write preparedStatement's setInt method here.
-            preparedStatement.setString(1, book_id);
+            preparedStatement.setInt(1, book_id);
 
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
