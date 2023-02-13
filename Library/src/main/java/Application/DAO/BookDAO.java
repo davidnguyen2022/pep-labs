@@ -32,7 +32,7 @@ public class BookDAO {
         List<Book> books = new ArrayList<>();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "SELECT * from Book";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
@@ -57,10 +57,11 @@ public class BookDAO {
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "INSERT INTO Author (book_id) values (?);";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write preparedStatement's setInt method here.
+            preparedStatement.setString(1, book_id);
 
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
