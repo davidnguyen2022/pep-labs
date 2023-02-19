@@ -5,6 +5,7 @@ public class ReturnWordCount {
      * @return return the amount of words in a string.
      */
     public int count(String in){
-        return count(in);
+        int count = in.split(" ").length;
+        return(count);
     }
 }
