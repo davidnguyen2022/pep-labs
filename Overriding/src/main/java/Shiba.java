@@ -18,8 +18,13 @@
 public class Shiba extends Dog{
 
 //    override sound() here
+public String sound(){
+    return "Bark";
+}
 
-        public void sound() {
-            return;
-        }
+ public static void main( String args[]) {
+    Shiba noise = new Shiba();
+    
+    noise.sound();
+ }
 }
